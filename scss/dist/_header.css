@@ -1,0 +1,22 @@
+header h2, header h1 {
+  text-align: center;
+}
+
+header {
+  background-color: black;
+  color: #fff;
+  padding-bottom: 20px;
+}
+header h1 {
+  font-family: Roboto, Helvetica, sans-serif;
+  font-size: 4em;
+  padding-top: 25px;
+  font-weight: 700;
+}
+header h2 {
+  font-family: Lato, Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 500;
+}
+header .small-heading {
+  padding-top: 10px;
+}

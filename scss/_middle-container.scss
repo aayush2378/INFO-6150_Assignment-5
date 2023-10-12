@@ -1,0 +1,14 @@
+.middle-container{
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+audio, video{
+    margin-top: 30px;
+}
+
+div.audio{
+    width: 30%;
+}

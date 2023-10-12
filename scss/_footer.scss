@@ -1,0 +1,33 @@
+@import 'header';
+
+footer{
+    background-color: burlywood;
+    @extend %text-properties;
+}
+
+.footer-text{
+    padding: 35px 
+}
+
+.footer-links{
+    padding: 40px 0 0 0;
+}
+
+@for $i from 1 through 2{
+    .footer-link-#{$i}{
+        padding: 40px 0 0 0;
+    }
+}
+
+@for $i from 1 through 2{
+    a.footer-link-#{$i} {
+        text-decoration: none;
+        font-family: $font-secondary;
+        font-size: large;
+        margin: 0 50px;
+        color: white;
+    }
+    a.footer-link-#{$i}:hover{
+        color:black;
+    }
+}

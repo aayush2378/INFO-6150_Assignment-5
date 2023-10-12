@@ -1,0 +1,28 @@
+@import 'config';
+
+%text-properties {
+    text-align: center;
+}
+
+header {
+    @include set-background($header-background-color);
+    padding-bottom: 20px;
+
+    h1 {
+        @extend %text-properties;
+        font-family: $font-primary;
+        font-size: 4em;
+        padding-top: 25px;
+        font-weight: 700;
+    }
+
+    h2 {
+        @extend %text-properties;
+        font-family: $font-secondary;
+        font-weight: 500;
+    }
+
+    .small-heading {
+        padding-top: 10px;
+    }
+}

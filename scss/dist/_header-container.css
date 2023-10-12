@@ -1,0 +1,45 @@
+.header-container {
+  background-color: #A6FF96;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+}
+
+h3 {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+h2 {
+  font-family: Lato, Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.quote {
+  font-size: 1.5em;
+  text-align: justify;
+  font-weight: 900;
+}
+
+.description {
+  padding-top: 40px;
+  font-size: 1.35rem;
+}
+
+a {
+  color: blue;
+}
+
+.link {
+  margin-top: 45px;
+}
+
+img {
+  padding: 40px;
+  width: 700px;
+  height: 500px;
+}
+
+.quote-box {
+  padding-top: 80px;
+  padding-left: 40px;
+}

@@ -1,0 +1,29 @@
+@import 'config';
+
+.large-heading{
+    font-family: $font-secondary;
+    padding: 5% 10% 0 25%;
+}
+
+.container{
+    width: 600px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+    gap: 10px;
+    padding: 5%;
+
+    p{
+        font-family: $font-tertiary;
+        font-weight: 500;
+    }
+}
+
+.container img{
+    width: 300px;
+    height: 200px;
+}
+
+.grid-container{
+    display: flex;
+}

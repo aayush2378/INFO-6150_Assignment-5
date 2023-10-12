@@ -1,0 +1,182 @@
+footer, header h2, header h1 {
+  text-align: center;
+}
+
+header {
+  background-color: black;
+  color: #fff;
+  padding-bottom: 20px;
+}
+header h1 {
+  font-family: Roboto, Helvetica, sans-serif;
+  font-size: 4em;
+  padding-top: 25px;
+  font-weight: 700;
+}
+header h2 {
+  font-family: Lato, Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 500;
+}
+header .small-heading {
+  padding-top: 10px;
+}
+
+.header-container {
+  background-color: #A6FF96;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+
+h3 {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+h2 {
+  font-family: Lato, Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.quote {
+  font-size: 1.5em;
+  text-align: justify;
+  font-weight: 900;
+}
+
+.description {
+  padding-top: 40px;
+  font-size: 1.35rem;
+}
+
+a {
+  color: blue;
+}
+
+.link {
+  margin-top: 45px;
+}
+
+.main-image {
+  padding: 40px;
+  width: 700px;
+  height: 500px;
+}
+
+.quote-box {
+  padding-top: 80px;
+  padding-left: 40px;
+}
+
+.middle-container {
+  margin: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+audio, video {
+  margin-top: 30px;
+}
+
+div.audio {
+  width: 30%;
+}
+
+footer, header h1, header h2 {
+  text-align: center;
+}
+
+header {
+  background-color: black;
+  color: #fff;
+  padding-bottom: 20px;
+}
+header h1 {
+  font-family: Roboto, Helvetica, sans-serif;
+  font-size: 4em;
+  padding-top: 25px;
+  font-weight: 700;
+}
+header h2 {
+  font-family: Lato, Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 500;
+}
+header .small-heading {
+  padding-top: 10px;
+}
+
+footer {
+  background-color: burlywood;
+}
+
+.footer-text {
+  padding: 35px;
+}
+
+.footer-links {
+  padding: 40px 0 0 0;
+}
+
+.footer-link-1 {
+  padding: 40px 0 0 0;
+}
+
+.footer-link-2 {
+  padding: 40px 0 0 0;
+}
+
+a.footer-link-1 {
+  text-decoration: none;
+  font-family: Lato, Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: large;
+  margin: 0 50px;
+  color: white;
+}
+
+a.footer-link-1:hover {
+  color: black;
+}
+
+a.footer-link-2 {
+  text-decoration: none;
+  font-family: Lato, Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: large;
+  margin: 0 50px;
+  color: white;
+}
+
+a.footer-link-2:hover {
+  color: black;
+}
+
+.large-heading {
+  font-family: Lato, Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding: 5% 10% 0 25%;
+}
+
+.container {
+  width: 600px;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 2fr 2fr;
+  gap: 10px;
+  padding: 5%;
+}
+.container p {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+.container img {
+  width: 300px;
+  height: 200px;
+}
+
+.grid-container {
+  display: flex;
+}
+
+* {
+  margin: 0;
+}

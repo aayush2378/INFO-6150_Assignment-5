@@ -1,0 +1,22 @@
+$font-primary: Roboto, Helvetica, sans-serif;
+$font-secondary: Lato, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+$font-tertiary: Inter, Arial, Helvetica, sans-serif;
+
+$header-background-color: hsl(0, 0%, 0%);
+
+$middleContainer-color: #A6FF96;
+
+@function set-text-color($color) {
+    @if(lightness($color) > 70) {
+        @return #000;
+    }
+    @else {
+        @return #fff;
+    }
+}
+
+
+@mixin set-background($color) {
+    background-color: $color;
+    color: set-text-color($color);
+}

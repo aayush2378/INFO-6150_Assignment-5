@@ -1,0 +1,47 @@
+@import 'config';
+
+.header-container{
+    @include set-background($middleContainer-color);
+    display: flex;  
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+h3{
+    font-family: $font-tertiary;
+    font-weight: 500;
+}
+
+h2{
+    font-family: $font-secondary;
+}
+
+.quote{
+    font-size: 1.5em;
+    text-align: justify;
+    font-weight: 900;
+}
+
+.description{
+    padding-top: 40px;
+    font-size: 1.35rem;
+}
+
+a{
+    color: blue;
+}
+
+.link{
+    margin-top: 45px;
+}
+
+.main-image{
+    padding: 40px ;
+    width: 700px;
+    height: 500px;
+}
+
+.quote-box{
+    padding-top: 80px;
+    padding-left: 40px;
+}
